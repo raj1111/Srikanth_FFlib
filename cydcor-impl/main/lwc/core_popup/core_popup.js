@@ -1,10 +1,15 @@
-import { LightningElement, track } from 'lwc';
+import { LightningElement, api, track } from 'lwc';
 
 export default class Core_popup extends LightningElement {
 
     @track openmodel = false;
-    @track modalHeader = 'Opportunity Creation';
-    @track close = 'Close';
+
+    //Public properties
+    @api modalHeader = 'Opportunity Creation';
+    @api close = 'Close';
+    @api cancel = 'Cancel';
+    @api save = 'Save';
+    
     
     openmodal() {
         this.openmodel = true
