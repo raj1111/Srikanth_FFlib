@@ -1,4 +1,4 @@
-public class v6APIService implements IAPIService{
+public class V6APIService implements IAPIService{
     
      public ResponseWrapper processResponse(CampaignContext argCampaignContext){
          System.debug('This is V6 processor');

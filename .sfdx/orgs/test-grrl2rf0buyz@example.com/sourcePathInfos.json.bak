@@ -9827,9 +9827,9 @@
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1553555845223,
-            "changeTime": 1553555845223,
-            "contentHash": "39978932d88f4dbd0e2833f2841f1215abdb4614",
+            "modifiedTime": 1553704800168,
+            "changeTime": 1553704800168,
+            "contentHash": "f89c270d75171195f6c479567be0764e88727b1d",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": true
@@ -9922,29 +9922,29 @@
     [
         "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\selectors",
         {
-            "state": "u",
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\selectors",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1553644481027,
             "changeTime": 1553644481027,
-            "isWorkspace": false,
-            "contentHash": "6051c8e3c4f66c0743c5da7b0cb3456c6544e0c3"
+            "contentHash": "6051c8e3c4f66c0743c5da7b0cb3456c6544e0c3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services",
         {
+            "state": "u",
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1553620173580,
-            "changeTime": 1553620173580,
-            "contentHash": "5f4f472636517f1ce00717f5a69a3beb3d02d3bc",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 0,
+            "modifiedTime": 1553705975618,
+            "changeTime": 1553705975618,
+            "isWorkspace": false,
+            "contentHash": "0f90d26cbcecde159652462d8c14e4d059276818"
         }
     ],
     [
@@ -10102,14 +10102,12 @@
         {
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\fflib-mocks\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "size": 45521,
-            "modifiedTime": 1553556930589,
-            "changeTime": 1553556930589,
-            "contentHash": "e281cd8fcb8e578ac57fa675c4fbdf61a8d22026",
+            "size": 47068,
+            "modifiedTime": 1553705057331,
+            "changeTime": 1553705057331,
+            "contentHash": "4e2cf1a1a3a97abe085c4f31259107d75bd8564d",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "state": "u"
         }
     ],
     [
@@ -10118,12 +10116,11 @@
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\fflib-mocks\\main\\default",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1553559027640,
-            "changeTime": 1553559027640,
-            "contentHash": "61ad137ff97ba7151529ca26282a5d51c4794673",
+            "modifiedTime": 1553705057334,
+            "changeTime": 1553705057334,
+            "contentHash": "2679cbfaa8454194a2b19d965f59c1de37f80646",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "state": "u"
         }
     ],
     [
@@ -10440,35 +10437,6 @@
         }
     ],
     [
-        "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services\\v6APIService.cls",
-        {
-            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services\\v6APIService.cls",
-            "isDirectory": false,
-            "size": 431,
-            "modifiedTime": 1553619971771,
-            "changeTime": 1553619971771,
-            "contentHash": "81a7dc72ac7db0491c5c185971c2af5e88396a6d",
-            "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
-        }
-    ],
-    [
-        "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services\\v6APIService.cls-meta.xml",
-        {
-            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services\\v6APIService.cls-meta.xml",
-            "isDirectory": false,
-            "size": 190,
-            "modifiedTime": 1553618571073,
-            "changeTime": 1553618571073,
-            "contentHash": "429822ba343d9a0c80c70773d6af410456907df0",
-            "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
         "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\test",
         {
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\test",
@@ -10686,14 +10654,14 @@
     [
         "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\selectors\\OpportunitiesSelector.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\selectors\\OpportunitiesSelector.cls",
             "isDirectory": false,
+            "size": 922,
+            "modifiedTime": 1553644963901,
+            "changeTime": 1553644963901,
+            "contentHash": "5e0199e5cf094f9308ed964f2b55ae071c0c1153",
             "isMetadataFile": false,
-            "size": 805,
-            "modifiedTime": 1553644617056,
-            "changeTime": 1553644617056,
-            "contentHash": "eb1b6e9aecc5eb49793e23e6ffbd79d56c7205b8"
+            "state": "u"
         }
     ],
     [
@@ -10712,27 +10680,79 @@
     [
         "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\selectors\\IOpportunitySelector.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\selectors\\IOpportunitySelector.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 206,
             "modifiedTime": 1553644556283,
             "changeTime": 1553644556283,
-            "contentHash": "b3d5ddfe0aab0fb9ecdbb888f1c6d7ce9470b54a"
+            "contentHash": "b3d5ddfe0aab0fb9ecdbb888f1c6d7ce9470b54a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\selectors\\IOpportunitySelector.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\selectors\\IOpportunitySelector.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 198,
             "modifiedTime": 1553644481032,
             "changeTime": 1553644481032,
-            "contentHash": "48dccf64097be5436b0ed7231ebd4525f0390654"
+            "contentHash": "48dccf64097be5436b0ed7231ebd4525f0390654",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\fflib-mocks\\main\\default\\customMetadata\\ApplicationFactory_ServiceBinding.IAPIServiceBinding.md-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\fflib-mocks\\main\\default\\customMetadata\\ApplicationFactory_ServiceBinding.IAPIServiceBinding.md-meta.xml",
+            "isDirectory": false,
+            "size": 534,
+            "modifiedTime": 1553705057337,
+            "changeTime": 1553705057337,
+            "contentHash": "26e589404d60f8279fb13a8d3251a86502537917",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\fflib-mocks\\main\\default\\customMetadata",
+        {
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\fflib-mocks\\main\\default\\customMetadata",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1553705057335,
+            "changeTime": 1553705057335,
+            "contentHash": "d55c456c515a5feea0ab3b9e495f56d287041f5d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services\\V6APIService.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services\\V6APIService.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 430,
+            "modifiedTime": 1553705979023,
+            "changeTime": 1553705979023,
+            "contentHash": "31c9a6a3b3119e6daf98737d17f74554a78ad8f1"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services\\V6APIService.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services\\V6APIService.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 190,
+            "modifiedTime": 1553705975619,
+            "changeTime": 1553705975619,
+            "contentHash": "c0db37622f16d9c7f229da504c3fc923af44564c"
         }
     ]
 ]
