@@ -86,6 +86,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>CampaignContext</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Campaigns</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -135,6 +139,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ForceApp3Module</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>IAPIService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -218,6 +226,14 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>IOpportunities</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>IOpportunitySelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>IOpportunityService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -235,6 +251,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>Message</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Opportunities</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OpportunitiesSelector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OpportunitiesTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -262,6 +290,18 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>RC2APIService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Rc1APIService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ResponseWrapper</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>RuntimeBindingDemoLocal</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -271,6 +311,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>RuntimeBindingDemoOrgTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>STIAPIService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>STIAPIServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -287,6 +335,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>TriggerInjector</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Utils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -585,6 +637,10 @@
         <apexClass>fflib_VerificationMode</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>v6APIService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -743,9 +799,6 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>App_Configuration__mdt-App Configuration Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ApplicationFactory_DomainBinding__mdt-ApplicationFactory_DomainBinding Layout</layout>

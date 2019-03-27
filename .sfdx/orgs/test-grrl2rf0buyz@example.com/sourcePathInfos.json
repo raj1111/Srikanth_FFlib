@@ -10100,30 +10100,27 @@
     [
         "C:\\workspace\\Projects\\fflib\\fflib-impl\\fflib-mocks\\main\\default\\profiles\\Admin.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\fflib-mocks\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "size": 45521,
-            "modifiedTime": 1553556930589,
-            "changeTime": 1553556930589,
-            "contentHash": "e281cd8fcb8e578ac57fa675c4fbdf61a8d22026",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 47068,
+            "modifiedTime": 1553705057331,
+            "changeTime": 1553705057331,
+            "contentHash": "4e2cf1a1a3a97abe085c4f31259107d75bd8564d"
         }
     ],
     [
         "C:\\workspace\\Projects\\fflib\\fflib-impl\\fflib-mocks\\main\\default",
         {
+            "state": "u",
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\fflib-mocks\\main\\default",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1553559027640,
-            "changeTime": 1553559027640,
-            "contentHash": "61ad137ff97ba7151529ca26282a5d51c4794673",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 0,
+            "modifiedTime": 1553705057334,
+            "changeTime": 1553705057334,
+            "contentHash": "2679cbfaa8454194a2b19d965f59c1de37f80646"
         }
     ],
     [
@@ -10686,14 +10683,14 @@
     [
         "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\selectors\\OpportunitiesSelector.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\selectors\\OpportunitiesSelector.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 922,
             "modifiedTime": 1553644963901,
             "changeTime": 1553644963901,
-            "contentHash": "5e0199e5cf094f9308ed964f2b55ae071c0c1153"
+            "contentHash": "5e0199e5cf094f9308ed964f2b55ae071c0c1153",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -10733,6 +10730,32 @@
             "contentHash": "48dccf64097be5436b0ed7231ebd4525f0390654",
             "isMetadataFile": true,
             "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\fflib-mocks\\main\\default\\customMetadata\\ApplicationFactory_ServiceBinding.IAPIServiceBinding.md-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\fflib-mocks\\main\\default\\customMetadata\\ApplicationFactory_ServiceBinding.IAPIServiceBinding.md-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 534,
+            "modifiedTime": 1553705057337,
+            "changeTime": 1553705057337,
+            "contentHash": "26e589404d60f8279fb13a8d3251a86502537917"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\fflib-mocks\\main\\default\\customMetadata",
+        {
+            "state": "u",
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\fflib-mocks\\main\\default\\customMetadata",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1553705057335,
+            "changeTime": 1553705057335,
+            "contentHash": "d55c456c515a5feea0ab3b9e495f56d287041f5d"
         }
     ]
 ]
