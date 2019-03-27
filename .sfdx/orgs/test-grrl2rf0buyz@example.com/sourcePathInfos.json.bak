@@ -9882,9 +9882,9 @@
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1553631218981,
-            "changeTime": 1553631218981,
-            "contentHash": "fce4559e42ad98a96c7099fa51033f441d1bb437",
+            "modifiedTime": 1553708823499,
+            "changeTime": 1553708823499,
+            "contentHash": "a285e334d050b75640a6ac52ec7ca7142443c887",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -9936,15 +9936,15 @@
     [
         "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services",
         {
-            "state": "u",
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1553705975618,
             "changeTime": 1553705975618,
-            "isWorkspace": false,
-            "contentHash": "0f90d26cbcecde159652462d8c14e4d059276818"
+            "contentHash": "0f90d26cbcecde159652462d8c14e4d059276818",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -10732,27 +10732,144 @@
     [
         "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services\\V6APIService.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services\\V6APIService.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 430,
-            "modifiedTime": 1553705979023,
+            "modifiedTime": 1553706013764,
             "changeTime": 1553705979023,
-            "contentHash": "31c9a6a3b3119e6daf98737d17f74554a78ad8f1"
+            "contentHash": "31c9a6a3b3119e6daf98737d17f74554a78ad8f1",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services\\V6APIService.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\classes\\services\\V6APIService.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 190,
             "modifiedTime": 1553705975619,
             "changeTime": 1553705975619,
-            "contentHash": "c0db37622f16d9c7f229da504c3fc923af44564c"
+            "contentHash": "c0db37622f16d9c7f229da504c3fc923af44564c",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc",
+        {
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1553710167605,
+            "changeTime": 1553710167605,
+            "contentHash": "0a1e6b76691b0c2b436860d956d22aa96f937b08",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_popup",
+        {
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_popup",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1553708941190,
+            "changeTime": 1553708941190,
+            "contentHash": "d022b7713d79769ffdde30a1df48be215de8e9db",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_popup\\core_popup.html",
+        {
+            "state": "u",
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_popup\\core_popup.html",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1932,
+            "modifiedTime": 1553711029808,
+            "changeTime": 1553711029808,
+            "contentHash": "cb64ba19b00d061ccf68032638a1119a671db2af"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_popup\\core_popup.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_popup\\core_popup.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 392,
+            "modifiedTime": 1553711041246,
+            "changeTime": 1553711041246,
+            "contentHash": "ad12329ddf1a2a8f48297b471e09aef1baf0b1b0"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_popup\\core_popup.js-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_popup\\core_popup.js-meta.xml",
+            "isDirectory": false,
+            "size": 389,
+            "modifiedTime": 1553709092140,
+            "changeTime": 1553709092140,
+            "contentHash": "3ce3d4c2dd500c97041967a02d6240d76642c7e4",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_newOpportunity",
+        {
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_newOpportunity",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1553710167627,
+            "changeTime": 1553710167627,
+            "contentHash": "db36f45e4756c8a440a4acc043d6cbeeeddb1455",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_newOpportunity\\core_newOpportunity.html",
+        {
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_newOpportunity\\core_newOpportunity.html",
+            "isDirectory": false,
+            "size": 269,
+            "modifiedTime": 1553710963703,
+            "changeTime": 1553710963703,
+            "contentHash": "5eda81b2468003ffa7104015648b9be7c79fd737",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_newOpportunity\\core_newOpportunity.js",
+        {
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_newOpportunity\\core_newOpportunity.js",
+            "isDirectory": false,
+            "size": 118,
+            "modifiedTime": 1553710723858,
+            "changeTime": 1553710723858,
+            "contentHash": "d992b1be13b3a9f6370ef578d2ed498fe0c7c8e7",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_newOpportunity\\core_newOpportunity.js-meta.xml",
+        {
+            "sourcePath": "C:\\workspace\\Projects\\fflib\\fflib-impl\\cydcor-impl\\main\\lwc\\core_newOpportunity\\core_newOpportunity.js-meta.xml",
+            "isDirectory": false,
+            "size": 398,
+            "modifiedTime": 1553710243082,
+            "changeTime": 1553710243082,
+            "contentHash": "edf1b20c19554e34379e4137ab0153422cd8aa0f",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]
