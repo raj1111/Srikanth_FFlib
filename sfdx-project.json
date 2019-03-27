@@ -1,0 +1,27 @@
+{
+  "packageDirectories": [
+    {
+      "path": "fflib-mocks",
+      "default": true
+    },
+    {
+      "path": "fflib-common",
+      "default": false
+    },
+    {
+      "path": "force-di",
+      "default": false
+    },
+    {
+      "path": "fflib-impl",
+      "default": false
+    },
+    {
+      "path": "cydcor-impl",
+      "default": false
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "45.0"
+}
