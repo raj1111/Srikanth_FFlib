@@ -342,6 +342,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>V6APIService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>WidgetInfoController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -637,10 +641,6 @@
         <apexClass>fflib_VerificationMode</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>v6APIService</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -801,6 +801,9 @@
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>App_Configuration__mdt-App Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ApplicationFactory_DomainBinding__mdt-ApplicationFactory_DomainBinding Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -856,6 +859,10 @@
         <apexPage>layoutWidgetInfo</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
+    <tabVisibilities>
+        <tab>LWC_Demo</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Widget__c</tab>
         <visibility>Hidden</visibility>

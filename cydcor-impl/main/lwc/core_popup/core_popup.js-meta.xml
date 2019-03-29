@@ -7,4 +7,12 @@
         <target>lightning__RecordPage</target>
         <target>lightning__HomePage</target>
     </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage">
+            <property name="modalHeader" type="String" label="Modal Header" placeholder="Header Label" description="Enter the Modal Header."/>
+            <property name="close" type="String" label="Close the Popup" placeholder="Cloase Label" description="Enter the Close label."/>
+            <property name="cancel" type="String" label="Cancel the Popup" placeholder="Cancel Label" description="Enter the Cancel label."/>
+            <property name="save" type="String" label="Save" placeholder="Save Label" description="Enter the Save label."/>
+        </targetConfig>
+    </targetConfigs>
 </LightningComponentBundle>

@@ -7,4 +7,9 @@
         <target>lightning__RecordPage</target>
         <target>lightning__HomePage</target>
     </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage">
+            <property name="name" type="String" label="Name" placeholder="World" description="Enter the name of the person to greet."/>
+        </targetConfig>
+    </targetConfigs>
 </LightningComponentBundle>
