@@ -1,0 +1,26 @@
+<template>
+    <lightning-card>
+        <h3>Please enter the customer's information</h3>                    
+        <div class="slds-m-around_medium">
+            <div>
+                <lightning-layout multiple-rows="true" class="x-large">
+                    <lightning-layout-item size="5" class="slds-p-around_xxx-small">
+                        <lightning-input placeholder="First Name" value={firstName} maxlength="40" ></lightning-input>                            
+                    </lightning-layout-item>
+                    <lightning-layout-item size="2" class="slds-p-around_xxx-small">
+                        <lightning-input placeholder="Middle Name" value={middleName} maxlength="20" ></lightning-input>                            
+                    </lightning-layout-item>
+                    <lightning-layout-item size="5" class="slds-p-around_xxx-small">
+                        <lightning-input placeholder="Last Name" value={lastName} maxlength="40" ></lightning-input>                          
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" class="slds-p-around_xxx-small">
+                        <lightning-input placeholder="Primary Phone" value={primaryPhoneNumber} maxlength="10"></lightning-input>                          
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" class="slds-p-around_xxx-small">
+                        <lightning-input placeholder="Secondary Phone" value={secondaryPhoneNumber} maxlength="10"></lightning-input>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </div>
+        </div>
+    </lightning-card>                
+</template>

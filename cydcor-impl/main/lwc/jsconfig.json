@@ -41,6 +41,18 @@
             ],
             "c/core_simpleTrack": [
                 "core_simpleTrack/core_simpleTrack.js"
+            ],
+            "c/core_wizard": [
+                "core_wizard/core_wizard.js"
+            ],
+            "c/core_shared": [
+                "core_shared/core_shared.js"
+            ],
+            "c/core_shellOrderContainer": [
+                "core_shellOrderContainer/core_shellOrderContainer.js"
+            ],
+            "c/core_customInfoContainer": [
+                "core_customInfoContainer/core_customInfoContainer.js"
             ]
         }
     },

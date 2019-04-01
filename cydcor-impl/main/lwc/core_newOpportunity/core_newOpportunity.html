@@ -1,7 +1,11 @@
 <template>
     <div class="slds-modal__content slds-p-around_medium" id="opportunityModal">
         <center><h2><b>Welcome to Salesforce Opportunity Creation</b></h2><br/>
-            <p>This is a new Opportunity</p>
-        </center>
+            <div>
+                <lightning-input label="Opportunity Name" value={oppName}></lightning-input> <br/>
+                <lightning-input label="Opportunity Stage" ></lightning-input> <br/>
+                
+            </div>
+        </center>        
     </div>            
 </template>
