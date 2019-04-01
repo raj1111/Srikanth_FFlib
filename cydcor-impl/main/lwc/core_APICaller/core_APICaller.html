@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="API Caller" icon-name="custom:custom14">
+        <div class="slds-m-around_medium">
+            <lightning-input type="text" label="Type Something" value={nameValue} onchange={handleNameChange}></lightning-input>
+            <br/>
+            <lightning-button label="Submit" onclick={handleAPICall}></lightning-button>
+            <br/>
+            <br/>
+            <template if:true={response}>
+                <c-core_response-display key={response.id} response-body={response}></c-core_response-display>
+            </template>
+            <template if:true={error}>
+                Something went wrong : {error}
+            </template>
+        </div>
+    </lightning-card>
+</template>

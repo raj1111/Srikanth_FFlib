@@ -3,8 +3,17 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/core_APICaller": [
+                "core_APICaller/core_APICaller.js"
+            ],
+            "c/core_apiProperty": [
+                "core_apiProperty/core_apiProperty.js"
+            ],
             "c/core_app": [
                 "core_app/core_app.js"
+            ],
+            "c/core_chartBar": [
+                "core_chartBar/core_chartBar.js"
             ],
             "c/core_container": [
                 "core_container/core_container.js"
@@ -24,17 +33,14 @@
             "c/core_popup": [
                 "core_popup/core_popup.js"
             ],
-            "c/core_simpleTrack": [
-                "core_simpleTrack/core_simpleTrack.js"
-            ],
-            "c/core_chartBar": [
-                "core_chartBar/core_chartBar.js"
-            ],
-            "c/core_apiProperty": [
-                "core_apiProperty/core_apiProperty.js"
-            ],
             "c/core_popupContainer": [
                 "core_popupContainer/core_popupContainer.js"
+            ],
+            "c/core_responseDisplay": [
+                "core_responseDisplay/core_responseDisplay.js"
+            ],
+            "c/core_simpleTrack": [
+                "core_simpleTrack/core_simpleTrack.js"
             ]
         }
     },

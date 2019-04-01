@@ -4,12 +4,13 @@ public with sharing class STIAPIService {
         return (IAPIService) Application.Service.newInstance(IAPIService.class);
     }
 
-    public static void makeRequest(String argName){
+    public static ResponseWrapper makeRequest(String argName){
         CampaignContext campaignContext = new CampaignContext();
         CampaignContext.name = argName;
         ResponseWrapper responseWrapper = service().processResponse(campaignContext);
         System.debug('Processed with : ' + responseWrapper.name);
         System.debug('Amount we got is : ' + responseWrapper.amount);
+        return responseWrapper;
     }
 
 }
