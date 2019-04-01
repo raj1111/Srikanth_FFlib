@@ -1,9 +1,9 @@
 <template>
     <lightning-card>
-        <h3>Please enter the customer's information</h3>                    
-        <div class="slds-m-around_medium">
+        <div class="custom-box slds-box slds-p-around_medium">
+            <h3>Please enter the customer's information</h3>    
             <div>
-                <lightning-layout multiple-rows="true" class="x-large">
+                <lightning-layout class="x-large">
                     <lightning-layout-item size="5" class="slds-p-around_xxx-small">
                         <lightning-input placeholder="First Name" value={firstName} maxlength="40" ></lightning-input>                            
                     </lightning-layout-item>
@@ -13,11 +13,15 @@
                     <lightning-layout-item size="5" class="slds-p-around_xxx-small">
                         <lightning-input placeholder="Last Name" value={lastName} maxlength="40" ></lightning-input>                          
                     </lightning-layout-item>
+                </lightning-layout>
+            </div>
+            <div>
+                <lightning-layout class="x-large">
                     <lightning-layout-item size="6" class="slds-p-around_xxx-small">
-                        <lightning-input placeholder="Primary Phone" value={primaryPhoneNumber} maxlength="10"></lightning-input>                          
+                        <lightning-formatted-phone placeholder="Primary Phone" value={primaryPhoneNumber} maxlength="10"></lightning-formatted-phone>                          
                     </lightning-layout-item>
                     <lightning-layout-item size="6" class="slds-p-around_xxx-small">
-                        <lightning-input placeholder="Secondary Phone" value={secondaryPhoneNumber} maxlength="10"></lightning-input>
+                        <lightning-formatted-phone placeholder="Secondary Phone" value={secondaryPhoneNumber} maxlength="10"></lightning-formatted-phone> 
                     </lightning-layout-item>
                 </lightning-layout>
             </div>
