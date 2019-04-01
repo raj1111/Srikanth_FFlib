@@ -290,10 +290,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>RC2APIService</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>Rc1APIService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -347,6 +343,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>WidgetInfoController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>core_STIController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>core_STIControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>

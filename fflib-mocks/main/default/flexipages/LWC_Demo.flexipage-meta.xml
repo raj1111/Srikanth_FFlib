@@ -5,23 +5,17 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
-            <componentName>core_simpleTrack</componentName>
-        </componentInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>core_popupContainer</componentName>
+            <componentName>core_APICaller</componentName>
         </componentInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <componentInstances>
-            <componentName>core_apiProperty</componentName>
-        </componentInstances>
         <name>region4</name>
         <type>Region</type>
     </flexiPageRegions>
