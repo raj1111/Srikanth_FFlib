@@ -230,11 +230,11 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>IOpportunitySelector</apexClass>
+        <apexClass>IOpportunitiesSelector</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>IOpportunityService</apexClass>
+        <apexClass>IOpportunitiesService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -262,7 +262,15 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>OpportunitiesService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>OpportunitiesTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OpportunityController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>

@@ -33,6 +33,10 @@ public abstract class ApplicationSObjectDomain
         return (IDomainProcessCoordinator)di_Injector.Org.getInstance(IDomainProcessCoordinator.class, this);
     }
 
+    public ApplicationSObjectDomain(){
+
+    }
+
     public ApplicationSObjectDomain(List<SObject> records) {
         super(records);
         // Disable the base class CRUD checking in preference to explicit checking elsewhere

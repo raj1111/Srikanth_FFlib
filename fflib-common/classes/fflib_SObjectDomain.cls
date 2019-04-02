@@ -86,6 +86,10 @@ public virtual with sharing class fflib_SObjectDomain
 
 		TriggerEventByClass = new Map<Type, TriggerEvent>();
 	}
+
+	public fflib_SObjectDomain(){
+		
+	}
 	
 	/**
 	 * Constructs the domain class with the data on which to apply the behaviour implemented within

@@ -18,6 +18,9 @@
             "c/core_container": [
                 "core_container/core_container.js"
             ],
+            "c/core_customInfoContainer": [
+                "core_customInfoContainer/core_customInfoContainer.js"
+            ],
             "c/core_forEach": [
                 "core_forEach/core_forEach.js"
             ],
@@ -39,20 +42,17 @@
             "c/core_responseDisplay": [
                 "core_responseDisplay/core_responseDisplay.js"
             ],
-            "c/core_simpleTrack": [
-                "core_simpleTrack/core_simpleTrack.js"
-            ],
-            "c/core_wizard": [
-                "core_wizard/core_wizard.js"
-            ],
             "c/core_shared": [
                 "core_shared/core_shared.js"
             ],
             "c/core_shellOrderContainer": [
                 "core_shellOrderContainer/core_shellOrderContainer.js"
             ],
-            "c/core_customInfoContainer": [
-                "core_customInfoContainer/core_customInfoContainer.js"
+            "c/core_simpleTrack": [
+                "core_simpleTrack/core_simpleTrack.js"
+            ],
+            "c/core_wizard": [
+                "core_wizard/core_wizard.js"
             ]
         }
     },

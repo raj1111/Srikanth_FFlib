@@ -1,30 +1,35 @@
 <template>
     <lightning-card>
         <div class="custom-box slds-box slds-p-around_medium">
-            <h3>Please enter the customer's information</h3>    
+            <b>Please enter the customer's information</b>    
             <div>
-                <lightning-layout class="x-large">
-                    <lightning-layout-item size="5" class="slds-p-around_xxx-small">
-                        <lightning-input placeholder="First Name" value={firstName} maxlength="40" ></lightning-input>                            
+                <lightning-layout class="x-large" multiple-rows="true">
+                    <lightning-layout-item size="4" class="slds-p-around_xxx-small">
+                        <lightning-input  value={firstName} maxlength="40" label="First Name" required onchange={captureFirstName}></lightning-input>                            
                     </lightning-layout-item>
-                    <lightning-layout-item size="2" class="slds-p-around_xxx-small">
-                        <lightning-input placeholder="Middle Name" value={middleName} maxlength="20" ></lightning-input>                            
+                    <lightning-layout-item size="4" class="slds-p-around_xxx-small">
+                        <lightning-input  value={middleName} maxlength="20" label="Middle Name"></lightning-input>                            
                     </lightning-layout-item>
-                    <lightning-layout-item size="5" class="slds-p-around_xxx-small">
-                        <lightning-input placeholder="Last Name" value={lastName} maxlength="40" ></lightning-input>                          
-                    </lightning-layout-item>
-                </lightning-layout>
-            </div>
-            <div>
-                <lightning-layout class="x-large">
-                    <lightning-layout-item size="6" class="slds-p-around_xxx-small">
-                        <lightning-formatted-phone placeholder="Primary Phone" value={primaryPhoneNumber} maxlength="10"></lightning-formatted-phone>                          
+                    <lightning-layout-item size="4" class="slds-p-around_xxx-small">
+                        <lightning-input  value={lastName} maxlength="40" label="Last Name" required></lightning-input>                          
                     </lightning-layout-item>
                     <lightning-layout-item size="6" class="slds-p-around_xxx-small">
-                        <lightning-formatted-phone placeholder="Secondary Phone" value={secondaryPhoneNumber} maxlength="10"></lightning-formatted-phone> 
+                        <lightning-input value={primaryPhoneNumber} maxlength="10" label="Primary Phone" required></lightning-input>                         
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" class="slds-p-around_xxx-small">
+                        <lightning-input value={secondaryPhoneNumber} maxlength="10" label="Secondary Phone"></lightning-input> 
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" class="slds-p-around_xxx-small">
+                        <lightning-input type="date" value={closeDate} label="Enter a date" onchange={captureCloseDate}></lightning-input>
+                    </lightning-layout-item>
+                    <lightning-layout-item size="6" class="slds-p-around_xxx-small">
+                        <lightning-input value={stage} label="Stage" placeholder="Stage Name" onchange={captureStage}></lightning-input>
                     </lightning-layout-item>
                 </lightning-layout>
-            </div>
+            </div>            
+        </div>
+        <div>
+            <lightning-button label="Save" onclick={saveOpportunity}></lightning-button>
         </div>
     </lightning-card>                
 </template>
