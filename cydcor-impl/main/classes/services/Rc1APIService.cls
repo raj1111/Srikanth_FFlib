@@ -4,7 +4,7 @@ public virtual class Rc1APIService implements IAPIService{
          System.debug('This is RC1 processor');
          //Do whatever processing we want based on the API
          ResponseWrapper responseWrapper = new ResponseWrapper();
-         responseWrapper.name = 'Hi ' + argCampaignContext.name + ', this is ' + getNameValue() + ' implementation';
+         responseWrapper.name = 'Hi ' + argCampaignContext.name + ', this is ' + getNameValue() + ' implementation for processing JSON response...';
          responseWrapper.amount = getAmountValue();
          return responseWrapper;
      }
