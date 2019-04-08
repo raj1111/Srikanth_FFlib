@@ -23,6 +23,10 @@
     {
       "path": "opp-app",
       "default": false
+    },
+    {
+      "path": "es6-app",
+      "default": false
     }
   ],
   "namespace": "",

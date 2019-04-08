@@ -4,55 +4,55 @@
         "baseUrl": ".",
         "paths": {
             "c/core_APICaller": [
-                "core_APICaller/core_APICaller.js"
+                "../../../cydcor-impl/main/lwc/core_APICaller/core_APICaller.js"
             ],
             "c/core_apiProperty": [
-                "core_apiProperty/core_apiProperty.js"
+                "../../../cydcor-impl/main/lwc/core_apiProperty/core_apiProperty.js"
             ],
             "c/core_app": [
-                "core_app/core_app.js"
+                "../../../cydcor-impl/main/lwc/core_app/core_app.js"
             ],
             "c/core_chartBar": [
-                "core_chartBar/core_chartBar.js"
+                "../../../cydcor-impl/main/lwc/core_chartBar/core_chartBar.js"
             ],
             "c/core_container": [
-                "core_container/core_container.js"
+                "../../../cydcor-impl/main/lwc/core_container/core_container.js"
             ],
             "c/core_customInfoContainer": [
-                "core_customInfoContainer/core_customInfoContainer.js"
+                "../../../cydcor-impl/main/lwc/core_customInfoContainer/core_customInfoContainer.js"
             ],
             "c/core_forEach": [
-                "core_forEach/core_forEach.js"
+                "../../../cydcor-impl/main/lwc/core_forEach/core_forEach.js"
             ],
             "c/core_helloworld": [
-                "core_helloworld/core_helloworld.js"
+                "../../../cydcor-impl/main/lwc/core_helloworld/core_helloworld.js"
             ],
             "c/core_inputBox": [
-                "core_inputBox/core_inputBox.js"
+                "../../../cydcor-impl/main/lwc/core_inputBox/core_inputBox.js"
             ],
             "c/core_newOpportunity": [
-                "core_newOpportunity/core_newOpportunity.js"
+                "../../../cydcor-impl/main/lwc/core_newOpportunity/core_newOpportunity.js"
             ],
             "c/core_popup": [
-                "core_popup/core_popup.js"
+                "../../../cydcor-impl/main/lwc/core_popup/core_popup.js"
             ],
             "c/core_popupContainer": [
-                "core_popupContainer/core_popupContainer.js"
+                "../../../cydcor-impl/main/lwc/core_popupContainer/core_popupContainer.js"
             ],
             "c/core_responseDisplay": [
-                "core_responseDisplay/core_responseDisplay.js"
+                "../../../cydcor-impl/main/lwc/core_responseDisplay/core_responseDisplay.js"
             ],
             "c/core_shared": [
-                "core_shared/core_shared.js"
+                "../../../cydcor-impl/main/lwc/core_shared/core_shared.js"
             ],
             "c/core_shellOrderContainer": [
-                "core_shellOrderContainer/core_shellOrderContainer.js"
+                "../../../cydcor-impl/main/lwc/core_shellOrderContainer/core_shellOrderContainer.js"
             ],
             "c/core_simpleTrack": [
-                "core_simpleTrack/core_simpleTrack.js"
+                "../../../cydcor-impl/main/lwc/core_simpleTrack/core_simpleTrack.js"
             ],
             "c/core_wizard": [
-                "core_wizard/core_wizard.js"
+                "../../../cydcor-impl/main/lwc/core_wizard/core_wizard.js"
             ],
             "c/core_appContainer": [
                 "../../../opp-app/main/lwc/core_appContainer/core_appContainer.js"

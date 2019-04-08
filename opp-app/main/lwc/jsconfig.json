@@ -1,0 +1,80 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/core_APICaller": [
+                "../../../cydcor-impl/main/lwc/core_APICaller/core_APICaller.js"
+            ],
+            "c/core_apiProperty": [
+                "../../../cydcor-impl/main/lwc/core_apiProperty/core_apiProperty.js"
+            ],
+            "c/core_app": [
+                "../../../cydcor-impl/main/lwc/core_app/core_app.js"
+            ],
+            "c/core_chartBar": [
+                "../../../cydcor-impl/main/lwc/core_chartBar/core_chartBar.js"
+            ],
+            "c/core_container": [
+                "../../../cydcor-impl/main/lwc/core_container/core_container.js"
+            ],
+            "c/core_customInfoContainer": [
+                "../../../cydcor-impl/main/lwc/core_customInfoContainer/core_customInfoContainer.js"
+            ],
+            "c/core_forEach": [
+                "../../../cydcor-impl/main/lwc/core_forEach/core_forEach.js"
+            ],
+            "c/core_helloworld": [
+                "../../../cydcor-impl/main/lwc/core_helloworld/core_helloworld.js"
+            ],
+            "c/core_inputBox": [
+                "../../../cydcor-impl/main/lwc/core_inputBox/core_inputBox.js"
+            ],
+            "c/core_newOpportunity": [
+                "../../../cydcor-impl/main/lwc/core_newOpportunity/core_newOpportunity.js"
+            ],
+            "c/core_popup": [
+                "../../../cydcor-impl/main/lwc/core_popup/core_popup.js"
+            ],
+            "c/core_popupContainer": [
+                "../../../cydcor-impl/main/lwc/core_popupContainer/core_popupContainer.js"
+            ],
+            "c/core_responseDisplay": [
+                "../../../cydcor-impl/main/lwc/core_responseDisplay/core_responseDisplay.js"
+            ],
+            "c/core_shared": [
+                "../../../cydcor-impl/main/lwc/core_shared/core_shared.js"
+            ],
+            "c/core_shellOrderContainer": [
+                "../../../cydcor-impl/main/lwc/core_shellOrderContainer/core_shellOrderContainer.js"
+            ],
+            "c/core_simpleTrack": [
+                "../../../cydcor-impl/main/lwc/core_simpleTrack/core_simpleTrack.js"
+            ],
+            "c/core_wizard": [
+                "../../../cydcor-impl/main/lwc/core_wizard/core_wizard.js"
+            ],
+            "c/core_appContainer": [
+                "core_appContainer/core_appContainer.js"
+            ],
+            "c/core_banCard": [
+                "core_banCard/core_banCard.js"
+            ],
+            "c/core_componentDetail": [
+                "core_componentDetail/core_componentDetail.js"
+            ],
+            "c/core_productsCard": [
+                "core_productsCard/core_productsCard.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

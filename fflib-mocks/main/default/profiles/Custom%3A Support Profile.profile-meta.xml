@@ -14,6 +14,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>AccountSloganRelatedTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountSupplementationTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Accounts</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -115,6 +123,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CustomAccountServiceImpl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DefaultAccountSloganBasedOnNameAction</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -230,7 +242,11 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>IOpportunitySelector</apexClass>
+        <apexClass>IOpportunitiesSelector</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>IOpportunitiesService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -250,6 +266,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>MarketingFieldsForAccountsSupplementer</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Message</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -262,7 +282,15 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>OpportunitiesService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>OpportunitiesTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OpportunityController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -290,11 +318,11 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>RC2APIService</apexClass>
+        <apexClass>Rc1APIService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>Rc1APIService</apexClass>
+        <apexClass>Rc2APIService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -347,6 +375,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>WidgetInfoController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>core_STIController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>core_STIControllerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -839,8 +875,12 @@
         <enabled>false</enabled>
     </pageAccesses>
     <tabVisibilities>
-        <tab>LWC_Demo</tab>
+        <tab>API_Demo</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LWC_Demo</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Widget__c</tab>

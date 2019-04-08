@@ -5,25 +5,25 @@
             <div>
                 <lightning-layout class="x-large" multiple-rows="true">
                     <lightning-layout-item size="4" class="slds-p-around_xxx-small">
-                        <lightning-input  value={firstName} maxlength="40" label="First Name" required onchange={captureFirstName}></lightning-input>                            
+                        <lightning-input  value={firstName} maxlength="40" placeholder="First Name" onchange={captureFirstName}></lightning-input>                            
                     </lightning-layout-item>
                     <lightning-layout-item size="4" class="slds-p-around_xxx-small">
-                        <lightning-input  value={middleName} maxlength="20" label="Middle Name"></lightning-input>                            
+                        <lightning-input  value={middleName} maxlength="20" placeholder="Middle Name"></lightning-input>                            
                     </lightning-layout-item>
                     <lightning-layout-item size="4" class="slds-p-around_xxx-small">
-                        <lightning-input  value={lastName} maxlength="40" label="Last Name" required></lightning-input>                          
+                        <lightning-input  value={lastName} maxlength="40" placeholder="Last Name" ></lightning-input>                          
                     </lightning-layout-item>
                     <lightning-layout-item size="6" class="slds-p-around_xxx-small">
-                        <lightning-input value={primaryPhoneNumber} maxlength="10" label="Primary Phone" required></lightning-input>                         
+                        <lightning-input value={primaryPhoneNumber} maxlength="10" placeholder="Primary Phone" ></lightning-input>                         
                     </lightning-layout-item>
                     <lightning-layout-item size="6" class="slds-p-around_xxx-small">
-                        <lightning-input value={secondaryPhoneNumber} maxlength="10" label="Secondary Phone"></lightning-input> 
+                        <lightning-input value={secondaryPhoneNumber} maxlength="10" placeholder="Secondary Phone"></lightning-input> 
                     </lightning-layout-item>
                     <lightning-layout-item size="6" class="slds-p-around_xxx-small">
-                        <lightning-input type="date" value={closeDate} label="Enter a date" onchange={captureCloseDate}></lightning-input>
+                        <lightning-input type="date" value={closeDate} placeholder="Enter a date" onchange={captureCloseDate}></lightning-input>
                     </lightning-layout-item>
                     <lightning-layout-item size="6" class="slds-p-around_xxx-small">
-                        <lightning-input value={stage} label="Stage" placeholder="Stage Name" onchange={captureStage}></lightning-input>
+                        <lightning-input value={stage} placeholder="Stage Name" onchange={captureStage}></lightning-input>
                     </lightning-layout-item>
                 </lightning-layout>
             </div>            

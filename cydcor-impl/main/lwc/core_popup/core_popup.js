@@ -17,8 +17,9 @@ export default class Core_popup extends LightningElement {
     closeModal() {
         this.openmodel = false
     } 
-    saveMethod() {
-        this.closeModal();
+    handleSave() {
+        alert('Clicked save');
+        this.dispatchEvent(new CustomEvent('save'));
     }
 
 }

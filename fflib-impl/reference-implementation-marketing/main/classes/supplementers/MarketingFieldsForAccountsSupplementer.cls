@@ -32,7 +32,7 @@ public class MarketingFieldsForAccountsSupplementer
     {
         for (Account acct : (List<Account>) accountSObjectList)
         {
-            acct.Slogan__c = 'Hello world!';
+            // acct.Slogan__c = 'Hello world!';
         }
     }
 }

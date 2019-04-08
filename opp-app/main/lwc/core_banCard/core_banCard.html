@@ -1,0 +1,17 @@
+<template>
+        <lightning-card>
+            <div class="custom-box slds-box slds-p-around_medium">
+                <b>Please enter Account Number(s) provided by the Call Center</b>    
+                <div>
+                    <lightning-layout class="x-large" multiple-rows="true">
+                        <lightning-layout-item size="6" class="slds-p-around_xxx-small">
+                            <lightning-input maxlength="20" placeholder="Unified BAN #" onchange={captureunifiedBAN}></lightning-input>                            
+                        </lightning-layout-item>
+                        <lightning-layout-item size="6" class="slds-p-around_xxx-small">
+                            <lightning-input maxlength="20" placeholder="Confirm Unified BAN #" onchange={captureConfirmUnifiedBAN}></lightning-input>                            
+                        </lightning-layout-item>                            
+                    </lightning-layout>
+                </div>            
+            </div>
+        </lightning-card>     
+</template>

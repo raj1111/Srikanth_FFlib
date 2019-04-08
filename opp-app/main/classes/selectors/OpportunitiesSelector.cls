@@ -11,6 +11,7 @@ public with sharing class OpportunitiesSelector extends ApplicationSObjectSelect
         return Opportunity.SObjectType;
     }
 
+
     public override List<Schema.SObjectField> getSObjectFieldList()
     {
         return new List<Schema.SObjectField> {
@@ -39,6 +40,8 @@ public with sharing class OpportunitiesSelector extends ApplicationSObjectSelect
         }
 
         qf.setCondition( Opportunity.Name + ' in :nameSet');
+        System.debug('Debugging');
         return Database.query(qf.toSOQL());
+
     }
 }
