@@ -1,15 +1,8 @@
 <template>
     <div class="slds-theme_default">
-        <center>
-         <br/><br/>    
-        <p>
-            <b>Show Modal Box using Lightning Web Componentes</b>
-        </p>
-        <br/><br/>
-            <lightning-button label="Show Modal" variant="brand" onclick={openmodal}></lightning-button>
-        <br/><br/>
-        </center>
-
+        <br/>
+        {popupText}
+        
         <template if:true={openmodel}>
         <div class="demo-only" style="height: 640px;">
             <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">

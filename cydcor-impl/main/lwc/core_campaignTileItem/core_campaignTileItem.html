@@ -1,0 +1,11 @@
+<template>
+    <!-- With an Image -->
+    <div class="slds-box slds-p-around_medium" style="text-align:center;">
+        <span class="slds-avatar slds-avatar--circle" onclick={openModalBox}>
+            <img alt={campaignItem.name} src={campaignItem.imgSrc} title={campaignItem.label} />
+        </span>                  
+        <c-core_popup popup-text={campaignItem.label} modal-header={campaignItem.label}>
+            <c-core_custom-info-container></c-core_custom-info-container>
+        </c-core_popup>
+    </div>    
+</template>    

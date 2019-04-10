@@ -1,0 +1,11 @@
+<template>
+    <lightning-card>
+        <div class="slds-grid slds-wrap">
+            <template for:each={campaignItemList} for:item='campaignItem'>
+                <div key={campaignItem.id} class="slds-col slds-size_4-of-12 slds-p-around_medium">
+                    <c-core_campaign-tile-item key={campaignItem.id} campaign-item={campaignItem}></c-core_campaign-tile-item>      
+                </div>   
+            </template>      
+        </div>   
+    </lightning-card>
+</template>
