@@ -7,7 +7,7 @@
         <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Campaign Tile</masterLabel>
+    <masterLabel>Campaign Selection</masterLabel>
     <template>
         <name>flexipage:defaultAppHomeTemplate</name>
     </template>

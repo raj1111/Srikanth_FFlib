@@ -18,7 +18,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>DI Demo</label>
     <navType>Standard</navType>
-    <tabs>di_Demo</tabs>
     <tabs>Widget__c</tabs>
     <tabs>standard-Account</tabs>
     <uiType>Lightning</uiType>

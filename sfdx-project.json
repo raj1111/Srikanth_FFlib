@@ -27,6 +27,10 @@
     {
       "path": "es6-app",
       "default": false
+    },
+    {
+      "path": "sfdx-lib",
+      "default": false
     }
   ],
   "namespace": "",

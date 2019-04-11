@@ -6,9 +6,6 @@
             "c/core_APICaller": [
                 "../../../cydcor-impl/main/lwc/core_APICaller/core_APICaller.js"
             ],
-            "c/core_app": [
-                "../../../cydcor-impl/main/lwc/core_app/core_app.js"
-            ],
             "c/core_campaignTileContainer": [
                 "../../../cydcor-impl/main/lwc/core_campaignTileContainer/core_campaignTileContainer.js"
             ],
@@ -27,6 +24,9 @@
             "c/core_inputBox": [
                 "../../../cydcor-impl/main/lwc/core_inputBox/core_inputBox.js"
             ],
+            "c/core_iteration": [
+                "../../../cydcor-impl/main/lwc/core_iteration/core_iteration.js"
+            ],
             "c/core_newOpportunity": [
                 "../../../cydcor-impl/main/lwc/core_newOpportunity/core_newOpportunity.js"
             ],
@@ -38,6 +38,9 @@
             ],
             "c/core_responseDisplay": [
                 "../../../cydcor-impl/main/lwc/core_responseDisplay/core_responseDisplay.js"
+            ],
+            "c/core_searchBar": [
+                "../../../cydcor-impl/main/lwc/core_searchBar/core_searchBar.js"
             ],
             "c/core_shared": [
                 "../../../cydcor-impl/main/lwc/core_shared/core_shared.js"
@@ -54,6 +57,9 @@
             "c/core_wizard": [
                 "../../../cydcor-impl/main/lwc/core_wizard/core_wizard.js"
             ],
+            "c/pubsub": [
+                "../../../cydcor-impl/main/lwc/pubsub/pubsub.js"
+            ],
             "c/core_appContainer": [
                 "../../../opp-app/main/lwc/core_appContainer/core_appContainer.js"
             ],
@@ -66,11 +72,26 @@
             "c/core_productsCard": [
                 "../../../opp-app/main/lwc/core_productsCard/core_productsCard.js"
             ],
-            "c/core_iteration": [
-                "../../../cydcor-impl/main/lwc/core_iteration/core_iteration.js"
+            "c/core_sharedLib": [
+                "../../../sfdx-lib/main/default/lwc/core_sharedLib/core_sharedLib.js"
             ],
-            "c/core_searchBar": [
-                "../../../cydcor-impl/main/lwc/core_searchBar/core_searchBar.js"
+            "c/core_compOne": [
+                "../../../sfdx-lib/main/default/lwc/core_compOne/core_compOne.js"
+            ],
+            "c/core_baseComponent": [
+                "../../../sfdx-lib/main/default/lwc/core_baseComponent/core_baseComponent.js"
+            ],
+            "c/core_compTwo": [
+                "../../../sfdx-lib/main/default/lwc/core_compTwo/core_compTwo.js"
+            ],
+            "c/core_campaignListingApp": [
+                "../../../sfdx-lib/main/default/lwc/core_campaignListingApp/core_campaignListingApp.js"
+            ],
+            "c/core_campaignListingScreen": [
+                "../../../sfdx-lib/main/default/lwc/core_campaignListingScreen/core_campaignListingScreen.js"
+            ],
+            "c/core_campaignListingContainer": [
+                "../../../sfdx-lib/main/default/lwc/core_campaignListingContainer/core_campaignListingContainer.js"
             ]
         }
     },

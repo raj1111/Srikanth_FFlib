@@ -1,12 +1,11 @@
 <template>
     <!-- With an Image -->
-    <div class="slds-box slds-p-around_medium" style="text-align:center;">
-        <span  onclick={openModalBox}>
-            <img class="imgrcorner" alt={campaignItem.name} src={campaignItem.imgSrc} title={campaignItem.label} style="width:100px;height:100px;"/>
+    <div class="slds-box parent one-edge-shadow slds-p-around_medium" style="text-align:center;">
+        <span onclick={openModalBox}>
+            <img class="child imgrcorner" alt={campaignItem.name} src={campaignItem.imgSrc} title={campaignItem.label} style="width:100px;height:100px;"/>
         </span>                  
         <c-core_popup popup-text={campaignItem.label} modal-header={campaignItem.label}>
-            <c-core_custom-info-container></c-core_custom-info-container>
-            <c-core_custom-info-container></c-core_custom-info-container>        
+            <c-core_custom-info-container></c-core_custom-info-container>     
         </c-core_popup>
     </div>    
 </template>    

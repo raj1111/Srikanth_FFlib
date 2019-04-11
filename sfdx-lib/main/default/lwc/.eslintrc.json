@@ -1,0 +1,7 @@
+{
+    "extends": "@salesforce/eslint-config-lwc/recommended",
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "allowJs": true
+    }
+}
